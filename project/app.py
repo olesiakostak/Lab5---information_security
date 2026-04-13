@@ -10,8 +10,6 @@ from services.reports import get_LCG_report
 from services.md5_custom import get_md5_hash, count_different_bits
 from services.rc5 import rc5_cbc_pad_encrypt, rc5_cbc_pad_decrypt
 from services.rsa import generate_rsa_keys, rsa_encrypt_file, rsa_decrypt_file
-
-# --- ІМПОРТ ДЛЯ ЛАБ 5 ---
 from services.dsa import generate_dsa_keys, dsa_sign, dsa_verify
 
 M = (2**13) - 1
